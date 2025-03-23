@@ -13,4 +13,6 @@ web_agent = Agent(
     show_tool_calls=True,
     markdown=True,
 )
+
+
 web_agent.print_response("Give 10 AI companies that I can appy for jobs in Munich", stream=True)
